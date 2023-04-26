@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício de Tabelas</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+    }
+
+    caption{
+      font-size: 1.3em;
+      font-weight: bolder;
+      padding: 8px;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    .destaque {
+      background-color: yellow;
+    }
+
+    col.cnome {
+      background-color: orange;
+    }
+
+
+    col.csexo {
+      background-color: lightskyblue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exercício de Tabela</h1>
+
+  <table>
+
+    <colgroup>
+      <col class="cnome">
+      <col class="csexo">
+      <col class="cidade">
+      <col class="cprof">
+    </colgroup>
+
+    <caption>Cadastro</caption>
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">Sexo</th>
+      <th scope="col">Idade</th>
+      <th scope="col">Profissão</th>
+    </tr>
+    <tr>
+      <td>Luciana</td>
+      <td>F</td>
+      <td>31</td>
+      <td>Arquiteta</td>
+    </tr>
+    <tr>
+      <td>Isabel</td>
+      <td>F</td>
+      <td>30</td>
+      <td>Produtora</td>
+    </tr>
+    <tr>
+      <td>Andrea</td>
+      <td>F</td>
+      <td>20</td>
+      <td>Estagiária</td>
+    </tr>
+    <tr>
+      <td>João</td>
+      <td>M</td>
+      <td>32</td>
+      <td>Psicólogo</td>
+    </tr>
+    <tr>
+      <td>Fernando</td>
+      <td>M</td>
+      <td>25</td>
+      <td>Contador</td>
+    </tr>
+    <tr>
+      <td>Felipe</td>
+      <td>M</td>
+      <td>33</td>
+      <td>Atuário</td>
+    </tr>
+  </table>
+</body>
+</html>
